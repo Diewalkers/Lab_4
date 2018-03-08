@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.slider{
+
+	max-width: 600px;
+	width: 100%;
+	margin: 0 auto;
+	border: 1px solid #000;
+
+}
+
+.item{
+	display: inline-block;
+	padding: 5px;
+	box-sizing: border-box;
+	width: 150px;
+	min-height: 330px;
+	overflow: hidden;
+}
+
+.item_description{
+	padding: 10px;
+}
+.item_head, .item_name, .item_coast, .item_description{
+	text-align: center;
+}
+
+.item_head, .item_name, .item_coast{
+	padding: 10px 0;
+	font-size: 14px;
+}
+
+.item_head{
+	border-bottom: 1px solid black;
+}
+.slick-prev:before, .slick-next:before{
+	color: black;
+}
+
+.slick-prev, .slick-next{
+	top: 14%;
+}
+.div1, .div2, .div3{
+	border-right: 1px solid black;
+}
+button{
+	width: 80px;
+	height: 50px;
+	border: 0;
+	color: white;
+	font-weight: bold;
+	background: gold;
+}
+.but{
+	margin-top: 15px;
+	background: red;
+}
+.head{
+	text-align: center;
+	font-weight: bold;
+	font-size: 36px;
+	padding-bottom: 20px;
+}

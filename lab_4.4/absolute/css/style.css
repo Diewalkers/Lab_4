@@ -1,0 +1,91 @@
+.full{
+	width: 600px;
+	height: 450px;
+	border: 4px solid blue;
+	position: absolute;
+}
+.div1, .div2, .div3{
+	width: 200px;
+	height: 350px;
+	margin-top: 20px;
+	position: absolute;
+}
+.div1, .div2{
+	border-right: 1px solid blue;
+
+}
+.kv1{
+	width: 36px;
+	height: 36px;
+	background: blue;
+	position: absolute;
+	left: 10px;
+	top: 50px;
+}
+.kv2{
+	width: 36px;
+	height: 36px;
+	background: blue;
+	position: absolute;
+	left: 50px;
+	top: 90px;
+}
+.kv3{
+	width: 36px;
+	height: 36px;
+	background: blue;
+	position: absolute;
+	right:10px;
+	top: 200px;
+}
+.div2{
+	left: 200px;
+}
+.div3{
+	left: 400px;
+}
+.h1{
+	position: absolute;
+	top: 10px;
+	left: 46px;
+}
+.h2{
+	position: absolute;
+	top: 50px;
+	left: 86px;
+}
+.h3{
+	position: absolute;
+	top: 160px;
+	right: 46px;
+}
+.h4{
+	position: absolute;
+	left: 64px;
+	top: 20px;
+}
+.kv4{
+	width: 36px;
+	height: 36px;
+	background: blue;
+	position: absolute;
+	left:115px;
+	top: 48px;
+}
+.h5{
+	position: absolute;
+	left: 64px;
+	top: 118px;
+}
+.kv5{
+	width: 36px;
+	height: 36px;
+	background: blue;
+	position: absolute;
+	top: 155px;
+	left: 82px;
+}
+p{
+	font-size: 36px;
+	font-family: Roboto;
+}
